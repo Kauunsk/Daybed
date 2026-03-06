@@ -1,0 +1,203 @@
+<!-- DAVID, Carl Mathew/CC14 2M-A/ 3-06-2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChesShop - Premium Chess Equipment</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header with Company Logo, Navigation, and Shopping Cart -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <!-- Company Logo (text-based logo with icon) -->
+                <div class="logo-icon">♞</div>
+                <div class="logo-text">Ches<span>Shop</span></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Shopping Cart Icon - Top Right Side -->
+            <div class="cart-icon">
+                <a href="#" class="cart-link">
+                    <span class="cart-icon-symbol">🛒</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Banner Section - Large, eye-catching with CTA -->
+    <section id="home" class="hero-banner">
+        <div class="hero-content">
+            <h1>Master Your Game with <span class="highlight">Premium Chess</span> Equipment</h1>
+            <p class="subheadline">Discover the finest chess sets, clocks, and accessories. From beginners to grandmasters, we have everything you need to elevate your chess experience.</p>
+            <div class="cta-buttons">
+                <a href="#featured" class="cta-button primary">Shop Now →</a>
+                <a href="#products" class="cta-button secondary">Explore Products</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Placeholder for hero image -->
+            <div class="image-placeholder">
+                <span>♔ ♕ ♗ ♘ ♙</span>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to ChesShop. We provide top-notch chess products in various regions in the Philippines. With years of experience in the chess community, we ensure quality products for players of all levels. Our mission is to make chess accessible to everyone while maintaining the highest standards of quality.</p>
+        </section>
+        
+        <!-- Products List Section -->
+        <section id="products">
+            <h2>Our Product Categories</h2>
+            <ul>
+                <li>Chess Sets - Complete tournament and casual sets</li>
+                <li>Chess Clocks - Digital and analog timers</li>
+                <li>Chess Pieces - Staunton, themed, and collectible pieces</li>
+                <li>Chess Boards - Wood, vinyl, and electronic boards</li>
+                <li>Chess Books - Strategy, openings, and endgames</li>
+                <li>Tournament Equipment - Bags and more</li>
+            </ul>
+        </section>
+        
+        <!-- Featured Products Section -->
+        <section id="featured" class="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://sportztrack.com/wp-content/uploads/2020/05/Eureka-chess-600x600.jpg" alt="Chess Set">
+                    <h3>Eureka Chess Set</h3>
+                    <p>Php799</p>
+                    <button class="add-to-cart-btn" data-product="Eureka Chess Sets" data-price="799">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Chess-Clocks/DGT3000-FIDE-championship-chess-clock-h.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess Clock">
+                    <h3>DGT Chess Clock 3000</h3>
+                    <p>Php4399.99</p>
+                    <button class="add-to-cart-btn" data-product="DGT Chess Clock 3000" data-price="4399.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Chess-Clocks/DGT3000-FIDE-championship-chess-clock-LE-h.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess Clock">
+                    <h3>DGT Chess Clock 3000 Limited Edition</h3>
+                    <p>Php4,999.99</p>
+                    <button class="add-to-cart-btn" data-product="DGT Chess Clock 3000 LE" data-price="4999.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/51VYv9Xw5UL._AC_UL480_FMwebp_QL65_.jpg" alt="Chess Clock">
+                    <h3>Analog Chess Clock</h3>
+                    <p>Php1599.99</p>
+                    <button class="add-to-cart-btn" data-product="Analog Chess Clock" data-price="1599.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Non-Electronic-Chess/DGT-Timeless-Wooden-Chess-Pieces-670x646.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess Pieces">
+                    <h3>DGT Wooden Chess Pieces</h3>
+                    <p>Php999.99</p>
+                    <button class="add-to-cart-btn" data-product="DGT Wooden Chess Pieces" data-price="999.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://www.chesshouse.com/cdn/shop/files/camelot-chess-pieces-by-berkeley-russet-brown-30772305985623.jpg?v=1696982993&width=800" alt="Chess Pieces">
+                    <h3>Camelot Chess Pieces</h3>
+                    <p>Php13699.99</p>
+                    <button class="add-to-cart-btn" data-product="Camelot Chess Pieces" data-price="13699.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://cdn11.bigcommerce.com/s-5p6k1/images/stencil/640w/products/1786/27068/metal-chess-set-roman-bust-italfama-both-colors-1000x900__54376.1597243056.jpg?c=2" alt="Chess Pieces">
+                    <h3>Roman Emperor Metal Chess Pieces</h3>
+                    <p>Php8999.99</p>
+                    <button class="add-to-cart-btn" data-product="Roman Emperor Metal Chess Pieces" data-price="8999.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://chess-evolution.com/wp-content/uploads/2021/03/%CE%A0%CE%B9%CF%8C%CE%BD%CE%B9%CE%B1-%CE%BC%CF%8C%CE%BD%CE%BF-scaled-1536x1088.jpg" alt="Chess Pieces">
+                    <h3>Staunton Chess Pieces</h3>
+                    <p>Php699.99</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Tournament-e-Boards/Walnut-board-meta.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess E-Board">
+                    <h3>DGT Chess E-Board</h3>
+                    <p>Php2899.90</p>
+                    <button class="add-to-cart-btn" data-product="DGT Chess E-Board" data-price="2899.90">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Non-Electronic-Chess/DGTWAL_2.JPG?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess Board">
+                    <h3>DGT Walnut Chess Board</h3>
+                    <p>Php1599.99</p>
+                    <button class="add-to-cart-btn" data-product="DGT Walnut Chess Board" data-price="1599.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1481472091i/683096.jpg" alt="Chess Books">
+                    <h3>My 60 memorable games by Bobby Fischer</h3>
+                    <p>Php399.99</p>
+                    <button class="add-to-cart-btn" data-product="My 60 memorable games by Bobby Fischer" data-price="399.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1694278288i/198850022.jpg" alt="Chess Books">
+                    <h3>How to win at Chess: The Ultimate Guide for Beginners and Beyond</h3>
+                    <p>Php299.99</p>
+                    <button class="add-to-cart-btn" data-product="How to win at Chess: The Ultimate Guide for Beginners and Beyond" data-price="299.99">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://digital-game-technology-2021.imgix.net/media/Products/Bags-and-Cases/DGT-chess-carrying-bag-for-board.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=320&ixlib=php-3.3.1&q=82&w=370" alt="Chess Bag">
+                    <h3>Carrying Bag Black</h3>
+                    <p>Php3499.99</p>
+                    <button class="add-to-cart-btn" data-product="Carrying Bag Black" data-price="499.99">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section with Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message here" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Email: chesshop@gmail.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <div class="social-links">
+            <a href="#" class="social-icon">📘</a>
+            <a href="#" class="social-icon">📷</a>
+            <a href="#" class="social-icon">🐦</a>
+        </div>
+        <p>Privacy Policy | Terms & Conditions</p>
+        <p>&copy; 2026 ChesShop. All rights reserved.</p>
+    </footer>
+
+   
